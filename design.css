@@ -45,17 +45,64 @@
     font-size: 20px;
     padding: 15px 35px;
   }
+  .section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+  }
   /* header related style */
   .header {
     background-color: #fff8f3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 
   }
   .bannar{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
    display: flex;
    align-items: center;
   }
-  . .bannar .profile-pic {
+   .bannar .profile-pic {
     width: 500px;
 
   }
+  .bannar-content{
+    max-width: 500px;
+    justify-content: space-between;
+    
+  }
+  .bannar-greating{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+
+  }
+  .bannar-titel {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+  }
+  .bannar-description {
+    font-style: italic;
+    
+  }
+  /* main section styles */
+  /* about sections styles */
+  .about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #fff8f3;
+    margin: 130px 0px;
+  }
+  .section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+
+  }
+
