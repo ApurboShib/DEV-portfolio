@@ -1,0 +1,38 @@
+/* common shared style */
+* {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* replace with the desired weight */
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+  
+  /* nav related style */
+  nav {
+    display: flex;
+  }
+  .text-primary {
+    color: #fd6e0a;
+  }
+  .nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+
+  }
+  nav > ul {
+    display: flex;
+    
+  }
+  nav li {
+    list-style: none;
+   margin-right: 50px;
+  }
+  nav a {
+    text-decoration: none;
+    color: #474747;
+  }
+  .btn-primary {
+    border-radius: 5px;
+    background: #fd6e0a;
+  }
