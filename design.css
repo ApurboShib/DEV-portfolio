@@ -92,6 +92,12 @@
     
   }
   /* main section styles */
+
+  main {
+    max-width: 1140px;
+    /*  jotouko ei ache vagavagi kore niye neo */
+    margin: 0 auto;
+  }
   /* about sections styles */
   .about{
     padding: 130px;
@@ -99,10 +105,14 @@
     background: #fff8f3;
     margin: 130px 0px;
   }
+  .about-info-container {
+    display: flex;
+    justify-content: space-around;
+  }
   .section-description {
     color: #757575;
     text-align: center;
     font-size: 18px;
 
   }
-
+.about-info {text-align: center;}
