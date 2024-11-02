@@ -12,6 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
   }
   .text-primary {
     color: #fd6e0a;
@@ -43,4 +44,18 @@
     font-weight: 700;
     font-size: 20px;
     padding: 15px 35px;
+  }
+  /* header related style */
+  .header {
+    background-color: #fff8f3;
+
+  }
+  .bannar{
+    padding: 30px 30px 30px 150px;
+   display: flex;
+   align-items: center;
+  }
+  . .bannar .profile-pic {
+    width: 500px;
+
   }
